@@ -1,0 +1,44 @@
+.about {
+    margin-top: 182px;
+    margin-bottom: 168px;
+    position: relative;
+
+    &::before {
+        width: 100%;
+        height: 450px;
+        background-image: url("../../img/coffee.jpg");
+        background-color: rgba(44, 52, 62, 1);
+        position: absolute;
+        background-repeat: no-repeat;
+        top: -137px;
+        /* left: -100px; */
+        z-index: -1;
+        content: '';
+    }
+}
+
+
+
+.about-section {
+    margin: 100px auto 24px 85px;
+    padding: 0px;
+    width: 188px;
+    height: 48px;
+    font-size: 40px;
+    line-height: 48px;
+    font-family: 'Fraunces', Times serif;
+    font-weight: 900;
+    color: rgba(254, 252, 247, 1);
+}
+
+.about-discrip {
+    margin: 0px auto auto 85px;
+    padding: 0px;
+    width: 445px;
+    height: 104px;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Barlow', Helvetica, sans-serif;  
+    font-weight: 400;
+    color: rgba(254, 252, 247, 1);
+}
