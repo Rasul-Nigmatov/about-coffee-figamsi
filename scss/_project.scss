@@ -1,0 +1,455 @@
+@media screen and (max-width: 1278px) {
+    .container {
+        max-width: 668px;
+        margin: 0px auto;
+    }
+
+    .header {
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 53px;
+    }
+
+
+
+    .container-nav {
+        max-width: 283px;
+        height: 15px;
+    }
+
+    
+
+    .user__item {
+        max-width: 34px;
+        max-height: 15px;
+
+       /*  &:nth-last-child("3n") {
+            margin: 0px;
+        } */
+    }
+
+    .about-section {
+        margin: 118px auto 24px 58px;
+        width: 150px;
+        height: 40px;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .about-discrip {
+        margin: 0px auto 118px 58px;
+    }
+
+    .about {
+        position: relative;
+
+        &::before {
+            width: 100%;
+            height: 400px;
+            background-image: url("../img/coffee-tablet.jpg");
+            background-color: rgba(44, 52, 62, 1);
+            position: absolute;
+            background-repeat: no-repeat;
+            top: -115px;
+            z-index: -1;
+            display: block;
+            content: '';
+        }
+    }
+
+    .comment-content {
+        margin-bottom: 144px;
+    }
+    .comment-our {
+        margin-left: 69px;
+        display: block;
+        vertical-align: top;
+    }
+
+    .coffee-img {
+        max-width: 281px;
+        max-height: 470px;
+    }
+    .our-title {
+        max-width: 286px;
+        max-height: 48px;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 900;
+    }
+
+    .our-discrip {
+        margin-top: 30px;
+        max-width: 339px;
+        max-height: 350px;
+        font-size: 15px;
+        line-height: 25px;
+        color: rgba(51, 61, 75, 0.8);
+    }
+
+    .maps-content {
+        max-width: 688px;
+        height: 366px;
+    }
+
+    .maps-discription {
+        margin: 144px auto 72px 0px;
+        width: 255px;
+        height: 32px;
+        font-size: 24px;
+        line-height: 32px;
+        font-weight: 900;
+        color: rgba(131, 136, 143, 0.8);
+
+    }
+    .maps-title {
+        width: 223px;
+        height: 36px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 900;
+    }
+
+    .maps-title--kindom {
+        width: 223px;
+        height: 36px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 900;
+    }
+
+    .maps-title--canada {
+        width: 93px;
+        height: 36px;
+        font-size: 24px;
+        line-height: 36px;
+        font-weight: 900;
+    }
+    
+    .maps-title--australiya {
+        width: 118px;
+        height: 36px;
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 36px;
+    }
+
+    .maps-discrip {
+        width: 222px;
+        height: 107px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-right: 10px;
+    }
+    
+    
+    .footer-site {
+        width: 688px;
+        height: 270px;
+        background-color: rgba(44, 52, 62, 1);
+        padding: 54px 210px;
+        display: block;
+    }
+
+    .footer-list {
+        width: 283px;
+        height: 15px;
+        display: flex;
+        justify-content: space-between;
+        margin: 33px 0px 65px 0px;
+    }
+
+    .footer__item--home {
+        width: 34px;
+        height: 15px;
+    }
+
+    .footer__item--about {
+        width: 62px;
+        height: 15px;
+    }
+
+    .footer__item--plans {
+        width: 121px;
+        height: 15px;
+    }
+
+    .footer__link {
+        font-size: 12px;
+        line-height: 15px;
+        color: rgba(131, 136, 143, 0.8);
+        text-decoration: none;
+        display: block;
+        font-weight: 700;
+    }
+
+}
+    
+@media screen and (max-width: 668px) {
+    .container {
+        max-width: 327px;
+        margin: 0px auto;
+    }
+    .user__list {
+        display: none;
+    }    
+    .about {
+        position: relative;
+
+        &::before {
+            width: 100%;
+            height: 400px;
+            background-image: url("../img/mobilephone.jpg");
+            background-color: rgba(44, 52, 62, 1);
+            position: absolute;
+            background-repeat: no-repeat;
+            top: -115px;
+            z-index: -1;
+            display: block;
+            content: '';
+        }
+    }
+
+    .about-content {
+        width: 279px;
+        height: 202px;
+        margin: 0px;
+    }
+
+    .about-section {
+        text-align: center;
+        margin: 111px 24px 24px;
+        width: 279px;
+        height: 28px;
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    .about-discrip {
+        text-align: center;
+        margin: 0px 24px 24px 24px;
+        width: 279px;
+        height: 150px;
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .coffee-img {
+        margin: 0px 24px;
+        width: 327px;
+        height: 400px;
+        background-image: url("../img/bratcoffee\ mobile.jpg");
+    }
+
+    .comment-content {
+        display: block;
+    }
+
+    .our-title {
+        width: 327px;
+        height: 48px;
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 48px;
+    }
+
+    .our-discrip {
+        width: 327px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+
+    }
+
+    .maps-discription {
+        margin: 120px 24px 72px 24px ;
+        width: 327px;
+        height: 32px;
+        font-size: 24px;
+        font-weight: 900;
+        color: rgba(131, 136, 143, 0.8);
+        text-align: center;
+    }
+
+    .maps-list {
+        display: block;
+    }
+
+    .maps-site-content {
+        width: 327px;
+        height: 1044px;
+    }
+
+    .maps-item--united {
+        position: relative;
+
+        &::before {
+            display: block;
+            width: 41px;
+            height: 49px;
+            background-image: url("../../img/united-kindom.svg");
+            position: absolute;
+            background-repeat: no-repeat;
+            top: -55px;
+            left: 160px;
+            content: '';
+        }
+
+        .maps-title--kindom {
+            width: 327px;
+            height: 36px;
+            font-size: 28px;
+            line-height: 36px;
+            text-align: center;
+        }
+
+        .maps-discrip {
+            margin-bottom: 80px;
+            width: 326px;
+            height: 107px;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+        }
+    }
+
+    .maps-item--canada {
+        position: relative;
+
+        &::before {
+            width: 52px;
+            height: 50px;
+            background-image: url("../../img/canada.svg");
+            position: absolute;
+            background-repeat: no-repeat;
+            top: -50px;
+            left: 160px;
+            content: '';
+        }
+    }
+
+    .maps-title--canada {
+        width: 327px;
+        height: 36px;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .maps-discrip {
+        margin-bottom: 80px;
+        width: 326px;
+        height: 107px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .maps-item--australiya {
+        position: relative;
+
+        &::before {
+            width: 52px;
+            height: 50px;
+            background-image: url("../../img/canada.svg");
+            position: absolute;
+            background-repeat: no-repeat;
+            top: -50px;
+            left: 160px;
+            content: '';
+        }
+    }
+
+    .maps-title--australiya {
+        width: 327px;
+        height: 36px;
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .maps-discrip {
+        margin-bottom: 80px;
+        width: 326px;
+        height: 107px;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    .footer-site {
+        margin: 0 auto;
+        width: 327px;
+        height: 346px;
+        padding: 54px 54px;
+        margin-top: 460px;
+    }
+
+    .footer-img {
+        width: 217px;
+        height: 23px;
+    }
+
+    .footer-list {
+        display: block;
+        width: 122px;
+        height: 93px;
+        margin: 50px auto 48px;
+    }
+
+    .footer__item {
+        margin: 0px;
+    }
+
+    .footer__item--home {
+        margin: 0px;
+        width: 34px;
+        height: 15px;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15px;
+    }
+
+    .footer__item--about {
+        width: 62px;
+        height: 15px;
+    }
+
+    .footer__item--plans {
+        width: 121px;
+        height: 15px;
+    }
+
+    .footer-link-list {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .header__button {
+        display: block;
+        background-color: #fff;
+        border: none;
+    }
+    
+    .header__button-intro {
+        width: 16px;
+        height: 3px;
+        display: block;
+        background-color: #000;
+        border-radius: 1px;
+    
+        &::before,
+        &::after {
+            width: 16px;
+            height: 3px;
+            display: block;
+            background-color: #000;
+            border-radius: 1px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            content: '';
+        } 
+    }
+}
+    

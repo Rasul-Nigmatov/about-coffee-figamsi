@@ -3,3 +3,29 @@
     justify-content: space-between;
     padding-top: 44px;
 }
+
+.header__button {
+    display: none;
+    background-color: #fff;
+    border: none;
+}
+
+.header__button-intro {
+    width: 16px;
+    height: 3px;
+    display: block;
+    background-color: #000;
+    border-radius: 1px;
+
+    &::before,
+    &::after {
+        width: 16px;
+        height: 3px;
+        display: block;
+        background-color: #000;
+        border-radius: 1px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        content: '';
+    } 
+}
